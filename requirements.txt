@@ -1,0 +1,25 @@
+# MuMu Emulator Instance Manager Requirements
+# Python version: 3.7+
+
+# No external dependencies required for the core functionality
+# The software uses only Python standard library modules:
+# - subprocess (for executing MuMuManager.exe)
+# - json (for configuration and data parsing)  
+# - os and pathlib (for file system operations)
+# - tkinter (for GUI - included with Python)
+# - threading (for non-blocking GUI operations)
+# - time (for delays and timestamps)
+# - typing (for type hints)
+# - dataclasses (for data structures)
+# - sys (for command line arguments)
+
+# Optional dependencies for enhanced functionality:
+# psutil>=5.8.0  # For system monitoring (optional)
+# colorama>=0.4.4  # For colored CLI output (optional)
+# requests>=2.25.1  # For remote management features (future)
+
+# Development dependencies:
+# pytest>=6.0.0  # For testing
+# black>=21.0.0  # For code formatting  
+# flake8>=3.9.0  # For linting
+# mypy>=0.812  # For type checking

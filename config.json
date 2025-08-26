@@ -1,0 +1,26 @@
+{
+  "mumu_manager_path": "MuMuManager.exe",
+  "default_backup_dir": "./backups",
+  "auto_refresh_interval": 5,
+  "max_concurrent_operations": 3,
+  "timeout_settings": {
+    "command_timeout": 60,
+    "startup_timeout": 120,
+    "shutdown_timeout": 60
+  },
+  "logging": {
+    "enabled": true,
+    "log_file": "instance_manager.log",
+    "log_level": "INFO"
+  },
+  "ui_settings": {
+    "window_width": 800,
+    "window_height": 600,
+    "theme": "default"
+  },
+  "emulator_defaults": {
+    "performance_mode": "middle",
+    "resolution_mode": "tablet.1",
+    "renderer_mode": "vk"
+  }
+}
