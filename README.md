@@ -1,3 +1,51 @@
+# MuMu Emulator Instance Management Software
+
+## 📋 Overview / Tổng Quan
+
+This repository contains a comprehensive instance management software for MuMu Emulator 12, including both the original command-line documentation and a new Python-based management interface.
+
+**Repository includes:**
+- 🔧 **Python Instance Manager** - Advanced wrapper for MuMuManager.exe
+- 🖥️ **GUI Interface** - User-friendly graphical interface
+- 📚 **Complete Documentation** - Vietnamese usage guide
+- 🤖 **Automation Scripts** - Examples for common tasks
+- ⚙️ **Configuration Management** - Flexible setup options
+
+## 🚀 Quick Start
+
+1. **Setup the software:**
+   ```bash
+   python setup.py
+   ```
+
+2. **Use CLI interface:**
+   ```bash
+   python instance_manager.py info
+   ```
+
+3. **Launch GUI:**
+   ```bash
+   python gui_manager.py
+   ```
+
+4. **View detailed guide:**
+   See `HUONG_DAN_SU_DUNG.md` for comprehensive Vietnamese documentation.
+
+## 📁 File Structure
+
+- `instance_manager.py` - Core Python interface for MuMu management
+- `gui_manager.py` - Graphical user interface  
+- `examples.py` - Automation examples and scripts
+- `setup.py` - Installation and configuration script
+- `config.json` - Configuration file
+- `test_instance_manager.py` - Test suite
+- `HUONG_DAN_SU_DUNG.md` - Vietnamese user guide
+- `README.md` - This file + original MuMu documentation
+
+---
+
+# Original MuMu Manager Documentation
+
 MuMuManager命令行开发者使用说明
 最新更新时间：2024-07-26
 　　MuMuManager.exe是MuMu模拟器12新加入的工具，可以用来操控模拟器，查询模拟器或应用状态。当前仅支持以下命令，后续会完善其他命令支持。
